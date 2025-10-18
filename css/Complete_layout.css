@@ -1,0 +1,11 @@
+body {margin:0;font-family:Arial;}
+header {position:sticky;top:0;background:#333;color:white;display:flex;justify-content:space-between;align-items:center;padding:1em;}
+nav a {color:white;text-decoration:none;margin:0 1em;}
+.hero {background:url('hero.jpg') center/cover no-repeat;height:50vh;display:flex;justify-content:center;align-items:center;color:white;}
+.about {display:flex;justify-content:space-around;align-items:center;padding:2em;}
+.about img {width:200px;}
+.services {display:flex;justify-content:center;gap:1em;padding:2em;}
+.sbox {flex:1;padding:2em;background:rgba(0,188,212,0.2);text-align:center;border:1px solid #00bcd4;}
+.contact {padding:2em;text-align:center;}
+form input,button {margin:.5em;padding:.7em;}
+footer {background:#333;color:white;text-align:center;padding:1em;}
