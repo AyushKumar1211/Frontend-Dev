@@ -1,0 +1,8 @@
+body {margin:0;font-family:Arial;}
+header {position:fixed;top:0;width:100%;background:#333;color:#fff;padding:1em;text-align:center;}
+.container {display:flex;margin-top:60px;}
+aside {background:#444;color:white;display:flex;flex-direction:column;padding:1em;width:200px;height:100vh;}
+aside a {color:white;text-decoration:none;margin:.5em 0;}
+main {flex:1;display:flex;flex-wrap:wrap;gap:1em;padding:1em;}
+.box {flex:1 1 45%;background:#eee;padding:2em;box-shadow:0 2px 5px #999;}
+@media(max-width:600px){.container{flex-direction:column;}}

@@ -1,0 +1,5 @@
+body {height:100vh;display:flex;justify-content:center;align-items:center;background:#f0f0f0;}
+form {background:#fff;padding:2em;border-radius:10px;display:flex;flex-direction:column;gap:1em;width:300px;}
+input,textarea {padding:.7em;border:1px solid #ccc;border-radius:5px;}
+input:focus,textarea:focus {border-color:#00bcd4;outline:none;}
+button {background:#00bcd4;color:#fff;border:none;padding:.7em;border-radius:5px;}

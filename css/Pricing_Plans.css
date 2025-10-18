@@ -1,0 +1,6 @@
+body {font-family:Arial;text-align:center;margin:0;padding:2em;}
+.plans {display:flex;justify-content:center;gap:1em;flex-wrap:wrap;}
+.plan {border:1px solid #ccc;padding:1em;width:200px;border-radius:10px;transition:.3s;}
+.plan:hover {transform:scale(1.05);background:#eee;}
+.popular {border:2px solid #00bcd4;}
+a {display:inline-block;background:#00bcd4;color:white;padding:.5em 1em;text-decoration:none;border-radius:5px;}

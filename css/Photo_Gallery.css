@@ -1,0 +1,7 @@
+body {margin:0;font-family:Arial;}
+.gallery {display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;padding:10px;}
+.item {position:relative;overflow:hidden;border-radius:10px;}
+img {width:100%;transition:.3s;}
+.item:hover img {transform:scale(1.1);}
+span {position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.6);color:#fff;text-align:center;opacity:0;transition:.3s;}
+.item:hover span {opacity:1;}

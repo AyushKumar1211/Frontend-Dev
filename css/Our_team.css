@@ -1,0 +1,5 @@
+body {font-family:Arial;text-align:center;margin:0;}
+.team {display:flex;justify-content:center;gap:1em;flex-wrap:wrap;padding:2em;}
+.card {border:1px solid #ccc;padding:1em;width:250px;border-radius:10px;box-shadow:0 2px 5px #999;}
+.lead {background:#e0f7fa;border:2px solid #00acc1;}
+@media(max-width:600px){.team{flex-direction:column;align-items:center;}}
