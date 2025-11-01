@@ -1,0 +1,10 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:system-ui,Arial,sans-serif;color:#081026;line-height:1.5}
+.fixed-header{position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,.95);backdrop-filter:saturate(120%);display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;z-index:10;border-bottom:1px solid rgba(0,0,0,.06)}
+.fixed-header nav a{margin-left:1rem;text-decoration:none;color:#0f172a}
+main{padding-top:84px;padding-bottom:84px;display:flex;flex-direction:column;gap:2rem}
+.linear{min-height:50vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;color:#fff;background:linear-gradient(135deg,#0f62fe 0%,#6c63ff 50%,#ff7a59 100%)}
+.radial{min-height:60vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;color:#fff;background:radial-gradient(circle at 30% 30%,#ff9a8b 0%,#ff7a59 25%,#6c63ff 60%);background-attachment:fixed}
+.fixed-footer{position:fixed;left:0;right:0;bottom:0;background:#fff;padding:.6rem 1rem;text-align:center;border-top:1px solid rgba(0,0,0,.06)}
+@media (max-width:700px){.fixed-header,.fixed-footer{padding:.8rem}}
