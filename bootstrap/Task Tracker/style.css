@@ -1,0 +1,14 @@
+.bg-gradient {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 20px;
+    background: #ffffffee;
+    backdrop-filter: blur(4px);
+}
+
+footer {
+    background: #5e5e7a;
+}
