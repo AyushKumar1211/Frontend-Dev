@@ -1,0 +1,36 @@
+:root {
+    --bs-primary: #7b2cbf;
+    --theme-accent: #c77dff;
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.blog-header {
+    background: linear-gradient(90deg, var(--bs-primary), var(--theme-accent));
+}
+
+.blog-card {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.theme-text {
+    color: var(--bs-primary);
+}
+
+.theme-btn {
+    background-color: var(--bs-primary);
+    color: white;
+    border-radius: 30px;
+}
+
+.theme-btn:hover {
+    background-color: var(--theme-accent);
+}
+
+.footer-bg {
+    background: var(--bs-primary);
+}
