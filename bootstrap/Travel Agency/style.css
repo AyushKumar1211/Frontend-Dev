@@ -1,0 +1,18 @@
+.bg-gradient {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    min-height: 100vh;
+}
+
+.carousel-img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    background: #003049;
+}
