@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="bg-white shadow-sm">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand fw-bold fs-4" href="#">NovaStart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-2 d-none d-lg-block"><a class="btn btn-primary btn-sm" href="#get-started">Get Started</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 text-white">
+              <h1 class="display-5 fw-bold">Build Faster. Ship Smarter.</h1>
+              <p class="lead">NovaStart helps startups launch beautiful, scalable web apps with a zero-friction workflow. Rapid prototyping, integrated deployment, and analytics — all in one place.</p>
+              <p class="mt-4">
+                <a id="get-started" href="#" class="btn btn-lg btn-light me-2">Get Started</a>
+                <a href="#features" class="btn btn-outline-light btn-lg">See Features</a>
+              </p>
+            </div>
+            <div class="col-lg-5 d-none d-lg-block">
+              <div class="mockup p-4 rounded-4 shadow-lg">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2d1f3c3a2c7b7ecb8a2f0b3a9f3a4d9a" alt="product mockup" class="img-fluid rounded-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="py-5">
+        <div class="container">
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2 class="fw-bold">Why Choose NovaStart</h2>
+              <p class="text-muted">Simple tools to launch, monitor, and grow your product.</p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-sm-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Rapid Prototyping</h5>
+                  <p class="card-text text-muted">Go from idea to working prototype in hours, not weeks.</p>
+                  <a href="#" class="stretched-link text-decoration-none">Learn more →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Integrated Deployments</h5>
+                  <p class="card-text text-muted">Continuous deployment to popular hosts with one click.</p>
+                  <a href="#" class="stretched-link text-decoration-none">Learn more →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Analytics & Monitoring</h5>
+                  <p class="card-text text-muted">Built-in metrics to understand user behavior and performance.</p>
+                  <a href="#" class="stretched-link text-decoration-none">Learn more →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h3 class="fw-bold">Plans for every stage</h3>
+              <p class="text-muted">From solo builders to growing teams. Start free and upgrade when ready.</p>
+            </div>
+
+            <div class="col-md-6">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="card h-100 text-center border-0 shadow-sm">
+                    <div class="card-body">
+                      <h5 class="card-title">Starter</h5>
+                      <p class="h3 fw-bold">Free</p>
+                      <p class="text-muted mb-0">Basic features for experimentation</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card h-100 text-center border-0 shadow-lg bg-primary text-white">
+                    <div class="card-body">
+                      <h5 class="card-title">Pro</h5>
+                      <p class="h3 fw-bold">₹499/mo</p>
+                      <p class="mb-0">Advanced tools for growing teams</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="fw-bold">Get in touch</h4>
+              <p class="text-muted">Questions about the product or partnership? Send us a message.</p>
+              <form class="row g-3">
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Your name" required>
+                </div>
+                <div class="col-12">
+                  <input type="email" class="form-control" placeholder="Email address" required>
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm">
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="promo" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-white">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="mb-3 mb-md-0">© 2025 NovaStart</div>
+        <div>
+          <a class="text-white text-decoration-none me-3" href="#">Privacy</a>
+          <a class="text-white text-decoration-none" href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
