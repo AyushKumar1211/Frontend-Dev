@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Q2 - Product Highlight</title>
+        <style>
+            .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+            .product{background:#fff;padding:12px;border-radius:8px;cursor:pointer}
+            .product.highlight{box-shadow:0 0 0 3px rgba(66,153,225,.25);transform:scale(1.02)}
+            .fav.selected{color:red}
+            .details{display:none;margin-top:8px}
+            .product[data-discount] {border-left:5px solid #e53e3e;padding-left:8px}
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Products</h1>
+            <section class="grid" id="products">
+                <article class="product" data-stock="in" data-discount="20%">
+                    <h3>Product A</h3>
+                    <p class="price">₹799</p>
+                    <button class="fav">♡</button>
+                    <div class="details">Extra details A</div>
+                </article>
+                <article class="product" data-stock="out">
+                    <h3>Product B</h3>
+                    <p class="price">₹1,299</p>
+                    <button class="fav">♡</button>
+                    <div class="details">Extra details B</div>
+                </article>
+                <article class="product" data-stock="in" data-discount="10%">
+                    <h3>Product C</h3>
+                    <p class="price">₹499</p>
+                    <button class="fav">♡</button>
+                    <div class="details">Extra details C</div>
+                </article>
+                <article class="product" data-stock="in">
+                    <h3>Product D</h3>
+                    <p class="price">₹2,199</p>
+                    <button class="fav">♡</button>
+                    <div class="details">Extra details D</div>
+                </article>
+                <article class="product" data-stock="in">
+                    <h3>Product E</h3>
+                    <p class="price">₹349</p>
+                    <button class="fav">♡</button>
+                    <div class="details">Extra details E</div>
+                </article>
+            </section>
+        </main>
+        <script src="product_highlight.js"></script>
+    </body>
+</html>
