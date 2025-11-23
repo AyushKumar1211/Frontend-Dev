@@ -1,0 +1,32 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Q1 - Welcome Page Greeting</title>
+        <style>
+            body{font-family:system-ui,Segoe UI,Roboto,Arial;background:#f7f7f7;padding:24px}
+            header,main,footer{max-width:900px;margin:0 auto}
+            .welcome{background:#fff;padding:18px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+            .hidden{display:none}
+            button{margin:6px}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome Page</h1>
+        </header>
+        <main>
+            <section class="welcome">
+                <h2 id="greeting">Hello</h2>
+                <p id="welcomeMsg">We're glad you're here.</p>
+                <button id="changeGreeting">Change Greeting</button>
+                <button id="toggleWelcome">Toggle Welcome Message</button>
+                <button id="showTime">Show Time</button>
+                <div>
+                    <a href="#" id="greetLink">Click greeting (alert)</a>
+                </div>
+            </section>
+        </main>
+        <script src="Welcome_page.js"></script>
+    </body>
+</html>
