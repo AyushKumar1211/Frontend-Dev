@@ -1,0 +1,3 @@
+"use strict";
+const employees=[{name:"Amit",salary:"45000",years:"5"},{name:"Sara",salary:"38000",years:"2"},{name:"Kiran",salary:"52000",years:"7"}];
+employees.forEach(e=>{try{if(!e.name||!e.salary||!e.years) throw new Error("Missing");const sal=Number(e.salary);const yrs=Number(e.years);if(isNaN(sal)||isNaN(yrs)) throw new Error("Conversion");const bonus=yrs>3?sal*0.1:sal*0.05;console.log(`${e.name}: salary=${sal}, years=${yrs}, bonus=${bonus}`);}catch(err){console.log("Error",e,err.message);} });
