@@ -1,0 +1,1 @@
+let user={name:"John",email:"john@mail.com",age:21};function update(k,v){user[k]=v;console.log(user);}
