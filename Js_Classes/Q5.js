@@ -1,0 +1,1 @@
+function validateBooking(n,e,s){const name=/^[A-Za-z ]+$/;const email=/^[^@]+@[^@]+\.[^@]+$/;if(!name.test(n)||!email.test(e)||s<1||s>10) return console.log("Invalid");console.log({name:n,email:e,seats:s});}
