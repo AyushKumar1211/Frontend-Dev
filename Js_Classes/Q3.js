@@ -1,0 +1,1 @@
+class Book{constructor(title,author,ISBN,isIssued=false){this.title=title;this.author=author;this.ISBN=ISBN;this.isIssued=isIssued;}issueBook(){this.isIssued=true;}returnBook(){this.isIssued=false;}}const books=[new Book("A","B","111"),new Book("C","D","222",true)];console.log(books.filter(b=>!b.isIssued));
