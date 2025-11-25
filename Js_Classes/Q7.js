@@ -1,0 +1,1 @@
+function login(u,p){const uR=/.{5,}/;const pR=/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$/;console.log(uR.test(u)&&pR.test(p)?"Success":"Fail");}
