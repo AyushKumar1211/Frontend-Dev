@@ -1,0 +1,1 @@
+class Cart{constructor(){this.items=[];}addItem(n,p,q){this.items.push({n,p,q});}getTotal(){return this.items.reduce((t,i)=>t+i.p*i.q,0);}applyCoupon(c){const r=/^(SAVE|DISC)\d+$/;if(!r.test(c)) return this.getTotal();const pct=parseInt(c.match(/\d+/)[0]);return this.getTotal()*(1-pct/100);} }
