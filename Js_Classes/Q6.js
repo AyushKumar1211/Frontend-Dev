@@ -1,0 +1,1 @@
+class Employee{constructor(id,name,department,salary){this.id=id;this.name=name;this.department=department;this.salary=salary;}getAnnualSalary(){return this.salary*12;}applyBonus(p){this.salary+=this.salary*(p/100);}}const emps=[new Employee(1,"A","HR",3000),new Employee(2,"B","IT",4000)];console.log(emps.reduce((t,e)=>t+e.getAnnualSalary(),0));
