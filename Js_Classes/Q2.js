@@ -1,0 +1,1 @@
+function validate(name,email,phone,password){const n=/^[A-Za-z ]+$/;const e=/^[^@]+@[^@]+\.[^@]+$/;const p=/^\d{10}$/;const pass=/^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).+$/;console.log(n.test(name),e.test(email),p.test(phone),pass.test(password));}
