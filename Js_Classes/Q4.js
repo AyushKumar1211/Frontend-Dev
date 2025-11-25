@@ -1,0 +1,1 @@
+class FormBuilder{constructor(fields){this.fields=fields;}render(){return this.fields.map(f=>`<label>${f.label}</label><input type="${f.type}" id="${f.label}">`).join("");}getFormData(){const obj={};this.fields.forEach(f=>obj[f.label]=document.getElementById(f.label).value);return obj;}}
